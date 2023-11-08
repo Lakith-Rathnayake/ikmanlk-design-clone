@@ -70,20 +70,19 @@
 }
 
 #about-ikman {
-  height: 590px;
+  height: 160px;
   width: 100%;
   max-width: 986px;
-  border: 1px solid black;
 }
 
 footer {
   height: 188px;
   display: flex;
   justify-content: center;
+    border-top: 2px solid green;
 }
 
 #footer-content {
-  background-color: blue;
   width: 100%;
   max-width: 986px;
   border: 1px solid black;
@@ -391,6 +390,25 @@ strong {
 
 .quick-link-topic {
   margin-bottom: 10px;
+}
+
+#about-ikman {
+  color: rgb(122, 121, 121);
+  font-size: 0.95rem;
+}
+
+#about-ikman strong {
+  font-size: 1rem;
+}
+
+#about-ikman button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(122, 121, 121);
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0;
 }
 
 @media all and (max-width: 800px) {
