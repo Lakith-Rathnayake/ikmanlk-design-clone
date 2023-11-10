@@ -564,7 +564,6 @@ strong {
 
   #inner-search input {
     width: calc(100vw - 30px);
-    /* width: auto; */
     max-width: 800px;
     height: 44px;
   }
@@ -683,7 +682,14 @@ strong {
   }
 
   #browse-items-1 {
-    height: 10px;
+    height: 15px;
+    line-height: 15px !important;
+    white-space: wrap;
+    text-align: start !important;
+  }
+
+  #hidden-disclaimer {
+    display: none;
   }
 
   #search-btn i{
